@@ -1,12 +1,12 @@
 <?php if ( ! defined('BASEPATH')) exit('No direct script access allowed');
 
 	$plugin_info = array(
-		'pi_name'					=> 'JSON Encode',
-		'pi_version'			=> '1.0',
-		'pi_author'				=> 'Noble Studios',
-		'pi_author_url'		=> 'http://noblestudios.com/',
-		'pi_description'	=> 'Returns the input string in JSON encoded form.',
-		'pi_usage'				=> Json_encode::usage()
+		'pi_name' => 'JSON Encode',
+		'pi_version' => '1.0',
+		'pi_author' => 'Noble Studios',
+		'pi_author_url' => 'http://noblestudios.com/',
+		'pi_description' => 'Returns the input string in JSON encoded form.',
+		'pi_usage' => Json_encode::usage()
 	);
 
 	class Json_encode {
