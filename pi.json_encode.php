@@ -6,7 +6,7 @@
 		'pi_author' => 'Noble Studios',
 		'pi_author_url' => 'http://noblestudios.com/',
 		'pi_description' => 'Returns the input string in JSON encoded form.',
-		'pi_usage' => Json_encode::usage()
+		'pi_usage' => (new Json_encode)->usage()
 	);
 
 	class Json_encode {
